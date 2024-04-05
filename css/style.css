@@ -122,6 +122,12 @@ body {
     text-align: center;
 }
 
+.hero {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
+
 /* Links and Link Buttons
 ========================================================================== */
 a {
@@ -178,9 +184,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -237,6 +243,18 @@ a:hover, a:active {
     line-height: 1.5;
 }
 
+.content-section {
+    color: #f1f1f1
+}
+
+
+.contact-info {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #f1f1f1
+    }
+
+
 section h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 48px;
@@ -290,9 +308,29 @@ footer {
 }
 
 
-/* Forms
+/* Content Section
 ========================================================================== */
+.content-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #29326a;
+    border-radius: 0px;
+}
 
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 /* Tables
 ========================================================================== */
